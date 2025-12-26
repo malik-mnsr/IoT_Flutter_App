@@ -2,10 +2,9 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-
-import '../../../../../core/constants/firebase_constants.dart';
-import '../../../../../core/exceptions/app_exceptions.dart';
-import '../../models/sensor_data_model.dart';
+import '../../../../core/constants/firebase_constants.dart';
+import '../../../../core/exceptions/app_exceptions.dart';
+import '../../../dashboard/domain/models/sensor_data_model.dart';
 
 
 abstract class SensorRepository {

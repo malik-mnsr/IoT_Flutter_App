@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../../../core/constants/firebase_constants.dart';
-import '../../../../../core/exceptions/app_exceptions.dart';
-import '../../models/control_command.dart';
-import '../../models/device_model.dart';
+import '../../../../core/constants/firebase_constants.dart';
+import '../../../../core/exceptions/app_exceptions.dart';
+import '../../domain/models/device_model.dart';
+import '../../domain/models/control_command.dart';
 
 abstract class DeviceRepository {
   // Device operations
